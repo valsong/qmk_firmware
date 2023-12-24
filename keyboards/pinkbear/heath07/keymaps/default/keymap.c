@@ -43,17 +43,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ),
 
     [_FN2] = LAYOUT(
-        KC_TILD,       KC_F1,        KC_F2,       KC_F3,       KC_F4,       KC_F5,       KC_F6,       KC_F7,       KC_F8,      KC_F9,       KC_F10,       KC_F11,      KC_F12,      _______,        TO(_MAC),    TG(_MAC),     _______,
-        S(KC_GRV),     _______,      _______,     _______,     G(KC_SPC),   _______,     KC_INS,      KC_BSPC,     KC_DEL,     KC_ENT,      _______,      KC_ESC,      _______,     _______,        TO(_WIN),    TG(_WIN),     _______,
+        KC_TILD,       KC_F1,        KC_F2,       KC_F3,       KC_F4,       KC_F5,       KC_F6,       KC_F7,       KC_F8,      KC_F9,       KC_F10,       KC_F11,      KC_F12,      _______,        TO(_MAC),    _______,     _______,
+        S(KC_GRV),     _______,      _______,     _______,     G(KC_SPC),   _______,     KC_INS,      KC_BSPC,     KC_DEL,     KC_ENT,      _______,      KC_ESC,      _______,     _______,        _______,     _______,     _______,
         _______,       _______,      _______,     _______,     _______,     _______,     KC_LEFT,     KC_DOWN,     KC_UP,      KC_RGHT,     _______,      _______,                  _______,
         _______,                     _______,     _______,     _______,     _______,     _______,     KC_HOME,     KC_PGDN,    KC_PGUP,     KC_END,       _______,                  _______,        KC_UP,
         _______,       _______,      _______,                               _______,                                           _______,     TO(_MAC),     _______,                  KC_LEFT,        KC_DOWN,     KC_RGHT
         ),
 
     [_FN3] = LAYOUT(
-        KC_GRV,        KC_BRID,      KC_BRIU,     KC_NO,       KC_NO,       RGB_VAD,     RGB_VAI,     KC_MPRV,     KC_MPLY,     KC_MNXT,    KC_MUTE,      KC_VOLD,      KC_VOLU,    LCA(KC_DEL),     TO(_MAC),    TG(_MAC),     _______,
-        RGB_TOG,       _______,      _______,     _______,     _______,     _______,     _______,     _______,     _______,     _______,    _______,      _______,      _______,    _______,        TO(_WIN),    TG(_WIN),     _______,
-        _______,       RGB_MOD,      RGB_HUI,     RGB_SAI,     RGB_VAI,     RGB_SPI,     _______,     _______,     _______,     _______,    _______,      _______,                  _______,
+        KC_GRV,        KC_BRID,      KC_BRIU,     KC_NO,       KC_NO,       RGB_VAD,     RGB_VAI,     KC_MPRV,     KC_MPLY,     KC_MNXT,    KC_MUTE,      KC_VOLD,      KC_VOLU,    LCA(KC_DEL),    TO(_MAC),    _______,     _______,
+        RGB_TOG,       _______,      _______,     _______,     _______,     _______,     _______,     _______,     _______,     _______,    TO(_FN5),     TO(_FN4),     TO(_WIN),   TO(_MAC),       _______,     _______,     _______,
+        KC_CAPS,       RGB_MOD,      RGB_HUI,     RGB_SAI,     RGB_VAI,     RGB_SPI,     _______,     _______,     _______,     _______,    _______,      _______,                  _______,
         _______,                     RGB_RMOD,    RGB_HUD,     RGB_SAD,     RGB_VAD,     RGB_SPD,     NK_TOGG,     _______,     _______,    _______,      _______,                  _______,        KC_UP,
         _______,       _______,      _______,                               _______,                                            _______,    TO(_MAC),     _______,                  KC_LEFT,        KC_DOWN,     KC_RGHT
         ),
