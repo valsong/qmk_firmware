@@ -13,8 +13,8 @@ qmk_firmware/lib/chibios/os/common/startup/ARMCMx/compilers/GCC/ld/STM32F103xB_u
 
 # 编译固件的方式
 ```shell
-make pinkbear/heath07:default
-qmk compile -kb pinkbear/heath07 -km default
+make pinkbear/heath07:via
+qmk compile -kb pinkbear/heath07 -km via
 ```
 
 # 参考教程

@@ -25,14 +25,14 @@ AUDIO_ENABLE = no
 
 DIP_SWITCH_ENABLE = no
 
-# via
-VIA_ENABLE = yes
-
 # 代码优化
 LTO_ENABLE = yes
 
 # 滚轮
 ENCODER_ENABLE = yes
+
+# 蓝牙
+BLUETOOTH_ENABLE = no
 
 # MCU name
 MCU = STM32F103
