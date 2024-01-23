@@ -17,6 +17,11 @@ make pinkbear/heath07:via
 qmk compile -kb pinkbear/heath07 -km via
 ```
 
+```shell
+make pinkbear/heath07:v
+qmk compile -kb pinkbear/heath07 -km v
+```
+
 # 参考教程
 [F103及国产兼容芯片构建QMK固件](https://www.zfrontier.com/app/flow/eMzZjJZRgP6z)
 
