@@ -1,4 +1,4 @@
-// Copyright 2023 Yizhen Liu (@edwardslau)
+// Copyright 2024 Val Song
 // SPDX-License-Identifier: GPL-2.0
 #include QMK_KEYBOARD_H
 
@@ -20,34 +20,34 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [2] = LAYOUT_all(
-        KC_GRV,        KC_F1,        KC_F2,       KC_F3,       KC_F4,       KC_F5,       KC_F6,       KC_F7,       KC_F8,      KC_F9,       KC_F10,       KC_F11,      KC_F12,      KC_DEL,     KC_NO,
+        KC_GRV,        KC_F1,        KC_F2,       KC_F3,       KC_F4,       KC_F5,       KC_F6,       KC_F7,       KC_F8,      KC_F9,       KC_F10,       KC_F11,      KC_F12,      KC_DEL,      KC_NO,
         S(KC_GRV),     _______,      KC_UP,       _______,     G(KC_SPC),   _______,     KC_INS,      KC_BSPC,     KC_DEL,     KC_ENT,      KC_PGUP,      KC_ESC,      _______,     _______,
         _______,       KC_LEFT,      KC_DOWN,     KC_RIGHT,    _______,     _______,     KC_LEFT,     KC_DOWN,     KC_UP,      KC_RGHT,     KC_PGDN,      KC_END,                   _______,
-        _______,                     _______,     _______,     _______,     _______,     _______,     KC_HOME,     KC_PGDN,    KC_PGUP,     KC_END,       KC_UP,                    _______,    KC_NO,
+        _______,                     _______,     _______,     _______,     _______,     _______,     KC_HOME,     KC_PGDN,    KC_PGUP,     KC_END,       KC_UP,                    _______,     KC_NO,
         _______,       _______,      _______,                               _______,                                                        KC_LEFT,      KC_DOWN,     KC_RIGHT,    _______
     ),
 
     [3] = LAYOUT_all(
-        _______,       KC_BRID,      KC_BRIU,     KC_NO,       KC_NO,       RGB_VAD,     RGB_VAI,     KC_MPRV,     KC_MPLY,     KC_MNXT,    KC_MUTE,      KC_VOLD,      KC_VOLU,    LCA(KC_DEL),KC_NO,
+        _______,       KC_BRID,      KC_BRIU,     KC_NO,       KC_NO,       RGB_VAD,     RGB_VAI,     KC_MPRV,     KC_MPLY,     KC_MNXT,    KC_MUTE,      KC_VOLD,      KC_VOLU,    LCA(KC_DEL), KC_NO,
         RGB_TOG,       _______,      _______,     _______,     _______,     _______,     _______,     _______,     _______,     _______,    TO(5),        TO(4),        TO(1),      TO(0),
         KC_CAPS,       RGB_MOD,      RGB_HUI,     RGB_SAI,     RGB_VAI,     RGB_SPI,     _______,     _______,     _______,     _______,    _______,      _______,                  _______,
-        _______,                     RGB_RMOD,    RGB_HUD,     RGB_SAD,     RGB_VAD,     RGB_SPD,     NK_TOGG,     _______,     _______,    _______,      _______,                  _______,    KC_NO,
+        _______,                     RGB_RMOD,    RGB_HUD,     RGB_SAD,     RGB_VAD,     RGB_SPD,     NK_TOGG,     _______,     _______,    _______,      _______,                  _______,     KC_NO,
         _______,       _______,      _______,                               _______,                                                        _______,      _______,      _______,    _______
         ),
 
     [4] = LAYOUT_all(
-        TO(0),         KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,      KC_NO,        KC_NO,        KC_NO,      KC_NO,      KC_NO,
-        KC_NO,         KC_NO,        KC_MS_UP,    KC_NO,       KC_NO,       KC_NO,       KC_MS_WH_LEFT,KC_MS_WH_DOWN,KC_MS_WH_UP,KC_MS_WH_RIGHT,KC_MS_ACCEL2,KC_NO,     KC_NO,      KC_NO,
-        KC_NO,         KC_MS_LEFT,   KC_MS_DOWN,  KC_MS_RIGHT, KC_NO,       KC_NO,       KC_MS_BTN3,  KC_MS_BTN1,  KC_MS_BTN2,  KC_MS_ACCEL0,KC_MS_ACCEL1,KC_MS_ACCEL2,             KC_NO,
-        KC_NO,                       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,      KC_NO,        KC_NO,                    KC_NO,      KC_NO,
-        KC_NO,         KC_NO,        KC_NO,                                 KC_NO,                                                          KC_NO,        KC_NO,        KC_NO,      KC_NO
+        TO(0),         KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,      KC_NO,        KC_NO,        KC_NO,      _______,     _______,
+        _______,       KC_NO,        KC_MS_UP,    KC_NO,       KC_NO,       KC_NO,       KC_MS_WH_LEFT,KC_MS_WH_DOWN,KC_MS_WH_UP,KC_MS_WH_RIGHT,KC_MS_ACCEL2,KC_NO,     KC_NO,      _______,
+        _______,       KC_MS_LEFT,   KC_MS_DOWN,  KC_MS_RIGHT, KC_NO,       KC_NO,       KC_MS_BTN3,  KC_MS_BTN1,  KC_MS_BTN2,  KC_MS_ACCEL0,KC_MS_ACCEL1,KC_MS_ACCEL2,             _______,
+        _______,                     KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,      KC_NO,        KC_NO,                    _______,     _______,
+        _______,       _______,      _______,                               _______,                                                        _______,      _______,      _______,    _______
         ),
 
     [5] = LAYOUT_all(
-        TO(0),         KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,      KC_NO,        KC_NO,        KC_NO,      KC_NO,      KC_NO,
+        TO(0),         KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,      KC_NO,        KC_NO,        KC_NO,      KC_NO,       KC_NO,
         KC_NO,         KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,      KC_NO,        KC_NO,        KC_NO,      KC_NO,
         KC_NO,         KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,      KC_NO,        KC_NO,                    KC_NO,
-        KC_NO,                       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,      KC_NO,        KC_NO,                    KC_NO,      KC_NO,
+        KC_NO,                       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,      KC_NO,        KC_NO,                    KC_NO,       KC_NO,
         KC_NO,         KC_NO,        KC_NO,                                 KC_NO,                                                          KC_NO,        KC_NO,        KC_NO,      KC_NO
         ),
 
