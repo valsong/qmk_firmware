@@ -83,3 +83,8 @@ make: *** [gray_studio/space65r3:v:flash] Error 1
 Make finished with errors
 
 ```
+
+
+```commandline
+qmk flash -kb gray_studio/space65r3 -km v
+```
