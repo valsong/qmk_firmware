@@ -30,6 +30,14 @@ make gray_studio/space65r3:v
 make gray_studio/space65r3:v:flash
 ```
 
+```shell
+qmk compile -kb gray_studio/space65r3 -km v
+```
+
+```shell
+qmk flash -kb gray_studio/space65r3 -km v
+```
+
 # 刷机报错，但是不影响刷机
 
 ```shell
@@ -86,5 +94,5 @@ Make finished with errors
 
 
 ```commandline
-qmk flash -kb gray_studio/space65r3 -km v
+
 ```
