@@ -92,7 +92,7 @@ Make finished with errors
 
 ```
 
-
-```commandline
-
+# 官方的github地址
+```
+https://github.com/edwardslau/qmk_firmware
 ```
