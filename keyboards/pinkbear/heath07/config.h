@@ -30,9 +30,6 @@
 
 #define WS2812_PWM_TARGET_PERIOD 800000
 
-// 设置自定义层级为6层
-#define DYNAMIC_KEYMAP_LAYER_COUNT 6
-
 // 滚轮
 #define ENCODERS_PAD_A { A7 }
 #define ENCODERS_PAD_B { B0 }

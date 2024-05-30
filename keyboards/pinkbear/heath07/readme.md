@@ -18,8 +18,8 @@ qmk compile -kb pinkbear/heath07 -km via
 ```
 
 ```shell
-make pinkbear/heath07:v
-qmk compile -kb pinkbear/heath07 -km v
+make pinkbear/heath07:viav
+qmk compile -kb pinkbear/heath07 -km viav
 ```
 
 # 参考教程
