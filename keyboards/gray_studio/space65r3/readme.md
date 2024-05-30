@@ -23,19 +23,19 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 # For V custom keymap and enable via
 
 ```shell
-make gray_studio/space65r3:v
+make gray_studio/space65r3:viav
 ```
 
 ```shell
-make gray_studio/space65r3:v:flash
+make gray_studio/space65r3:viav:flash
 ```
 
 ```shell
-qmk compile -kb gray_studio/space65r3 -km v
+qmk compile -kb gray_studio/space65r3 -km viav
 ```
 
 ```shell
-qmk flash -kb gray_studio/space65r3 -km v
+qmk flash -kb gray_studio/space65r3 -km viav
 ```
 
 # 刷机报错，但是不影响刷机
