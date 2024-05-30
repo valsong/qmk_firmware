@@ -34,9 +34,9 @@ Enter the bootloader in 3 ways:
 # For V custom keymap and enable via
 
 ```shell
-make gray_studio/bd60:v
+make gray_studio/bd60:viav
 ```
 
 ```shell
-make gray_studio/bd60:v:flash
+make gray_studio/bd60:viav:flash
 ```
