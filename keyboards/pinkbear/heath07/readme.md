@@ -8,7 +8,7 @@
 # STM32F103xB_uf2.ld
 编译固件的时候，注意要将STM32F103xB_uf2.ld放到以下的目录中
 ```shell
-qmk_firmware/lib/chibios/os/common/startup/ARMCMx/compilers/GCC/ld/STM32F103xB_uf2.ld
+qmk_firmware/platforms/chibios/boards/common/ld/STM32F103xB_uf2.ld
 ```
 
 # 编译固件的方式
